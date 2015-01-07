@@ -145,12 +145,10 @@ This route will :
 - Get a resource based on id
 - Get a resource with search field (it get only the first item)
 
-===================================================================     ======  =======
-Route	                                                                Method	Dynamic
-===================================================================     ======  =======
-http://[...]/{{resources}}/{{id}}	                                GET	{{id}} is the id of the resource
-http://[...]/{{resources}}/{{id}}?{{field}}={{value}}	                GET	{{field}} is the name of the field and {{value}} is the value of the field we search. BE CARREFULL, use this will ignore the {{id}}
-===================================================================     ======  =======
+|Route|Method|Dynamic|
+|-|-|-|
+|http://[...]/{{resources}}/{{id}}|GET	{{id}} is the id of the resource|
+|http://[...]/{{resources}}/{{id}}?{{field}}={{value}}|GET	{{field}} is the name of the field and {{value}} is the value of the field we search. BE CARREFULL, use this will ignore the {{id}}|
 
 Example :
 
